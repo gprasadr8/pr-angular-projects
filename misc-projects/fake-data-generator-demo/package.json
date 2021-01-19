@@ -1,0 +1,18 @@
+{
+  "name": "faker-browser-demo",
+  "version": "1.0.0",
+  "description": "this is a demo project to generate massive amounts of data by using faker.js",
+  "main": "index.js",
+  "scripts": {
+    "generate":"node thousand-records-generator > thousand-records.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "faker-demo"
+  ],
+  "author": "prasad guntakinda",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.1.0"
+  }
+}

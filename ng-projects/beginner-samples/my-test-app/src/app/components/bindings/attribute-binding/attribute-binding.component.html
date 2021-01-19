@@ -1,0 +1,16 @@
+<table [border]="1">
+  <tr>
+    <!-- Attribute binding syntax -->
+    <td [attr.colspan]="numbers.length">One-Two</td>
+  </tr>
+  <tr>
+    <!-- Below is the property binding syntax -->
+    <td [colSpan]="numbers.length">Three-Four</td>
+  </tr>
+  <tr>
+    <td>Five</td>
+    <td>Six</td>
+  </tr>
+</table>
+<!-- here aria-label is a pure attribute we can't use property binding -->
+<button [attr.aria-label]="actionName">{{ actionName}} with Aria</button>

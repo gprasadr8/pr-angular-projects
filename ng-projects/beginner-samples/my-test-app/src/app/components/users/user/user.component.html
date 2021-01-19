@@ -1,0 +1,14 @@
+<div class="styled">
+
+  <p>This is the template for User Component</p>
+
+
+
+<div
+[@openClose] = "isOpen ? 'open':'closed'"
+class="open-close-container"
+(click) = "toggle()">
+<p>The box is now {{ isOpen?'open':'close'}}!</p>
+
+
+

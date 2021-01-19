@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-ts",
+  "version": "1.0.0",
+  "description": "this is the introduction to type script",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gprasadr8/angular-projects.git"
+  },
+  "author": "prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gprasadr8/angular-projects/issues"
+  },
+  "homepage": "https://github.com/gprasadr8/angular-projects#readme"
+}

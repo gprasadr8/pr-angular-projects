@@ -1,0 +1,12 @@
+{
+  "name": "ts-basics",
+  "version": "1.0.0",
+  "description": "it contains examples for typescript basics like data types, operators, classes,modules, ...etc",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts aysnc-await.ts -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prasad guntakinda",
+  "license": "ISC"
+}
